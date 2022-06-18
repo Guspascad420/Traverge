@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Toona";
+    src: url("../ToonapersonaluseRegular-vma67.otf") format("opentype");
+}
+
+@media only screen and (min-width: 1024px) {
+    #hero {
+      height: 500px;
+    }
+}
+
+@media only screen and (max-width: 628px) {
+  nav ul, #signUp {
+    display: none;
+  }
+  header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #logo {
+    margin-left: auto;
+  }
+}
+
+.placeDetails img {
+  transition: transform .5s ease;
+}
+
+.community img {
+  transition: transform .5s ease;
+}
+
+.placeDetails:hover img {
+  transform: scale(1.2);
+}
+
+.community:hover img {
+  transform: scale(1.2);
+}

@@ -1,0 +1,1 @@
+npx tailwindcss -i ./res/css/input.css -o ./res/css/bootstrap.css --watch
